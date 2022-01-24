@@ -1,0 +1,1 @@
+export { CanteenScreen } from './Canteen';

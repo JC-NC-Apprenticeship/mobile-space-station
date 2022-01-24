@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "scheme": "northcoders-mobile",
+    "name": "northcoders-mobile",
+    "slug": "northcoders-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Station76 would like access to the camera to scan inventory",
+        "NSFaceIDUsageDescription": "Station76 would like to access your FaceId"
+      },
+      "bundleIdentifier": "com.northcoders.intro-to-mobile"
+    },
+    "android": {
+      "permissions": ["CAMERA", "NOTIFICATIONS"],
+      "package": "com.northcoders.introtomobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "imageHost": "https://thirsty-future-krill.glitch.me",
+      "docsHost": "https://main--wizardly-turing-c41438.netlify.app/"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "packagerOpts": {
+      "assetExts": ["md"]
+    }
+  }
+}
